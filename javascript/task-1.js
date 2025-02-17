@@ -1,4 +1,5 @@
-// Завдання 1
+console.log('Task 1');
+
 let name = 'Генератор захисного поля';
 let price = 1000;
 console.log(`Обрано «${name}», ціна за штуку ${price} кредитів`);

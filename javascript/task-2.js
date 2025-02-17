@@ -1,4 +1,5 @@
-// Завдання 2
+console.log('Task 2');
+
 const total = 100;
 let ordered = 50;
 
@@ -8,7 +9,6 @@ if (ordered > total) {
     console.log("Замовлення оформлено, з вами зв'яжеться менеджер");
 }
 
-// Перевірка працездатності коду з різними значеннями змінної ordered
 ordered = 20;
 if (ordered > total) {
     console.log("На складі недостатньо товарів!");

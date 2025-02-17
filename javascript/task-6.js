@@ -1,3 +1,5 @@
+console.log('Task 6');
+
 let input;
 let total = 0;
 

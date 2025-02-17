@@ -1,3 +1,5 @@
+console.log('Task 7');
+
 function checkStorage(available, ordered) {
     let message;
     if (ordered === 0) {

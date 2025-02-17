@@ -1,3 +1,5 @@
+console.log('Task 4');
+
 let credits = 23580;
 const pricePerDroid = 3000;
 
