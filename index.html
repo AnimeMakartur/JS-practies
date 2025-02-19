@@ -22,10 +22,10 @@
 
     <script>
         function loadScript(src) {
-            const script = document.createElement('script');
-            script.type = 'module';
-            script.src = src;
-            document.body.appendChild(script);
+            const script = document.createElement('script');// Створює новий елемент <script>
+            script.type = 'module';// Встановлює тип скрипту як 'module', що дозволяє використовувати модулі ES6
+            script.src = src; // Встановлює атрибут src для елемента <script>, вказуючи шлях до скрипту
+            document.body.appendChild(script);// Додає створений елемент <script> в кінець тіла документа, що викликає його завантаження та виконання
         }
     </script>
 
